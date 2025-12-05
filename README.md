@@ -1,13 +1,16 @@
-# 🎮 Tactical Ops Quick Join - Mod
+# 🎮 Tactical Ops Quick Join - AI-Mod
 
-A modern, fast server browser for Tactical Operations with advanced features and an improved user interface.
+A modern, fast server browser for Tactical Ops with advanced features and an improved user interface.
+
+**The project was completely modified by AI.**
 
 ![.NET](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-<!-- TODO: Add main screenshot here -->
-![Main Interface](screenshots/main-interface.png)
+**Light Mode:** 
+
+<img width="879" height="708" alt="image" src="https://github.com/user-attachments/assets/d63bee69-a359-462e-ab2f-442fd952e4e7" />
 
 ## ✨ Features
 
@@ -21,16 +24,20 @@ A modern, fast server browser for Tactical Operations with advanced features and
 - **⌨️ Keyboard Shortcuts** - Quick actions with F5, Enter, and Escape
 - **🎯 Version Filter** - Filter servers by TO version (2.2, 3.4, 3.5)
 
-<!-- TODO: Add feature screenshots here -->
-![Map Preview](screenshots/map-preview.png)
-![Dark Theme](screenshots/dark-theme.png)
+**Dark Mode:** 
+
+<img width="879" height="708" alt="image" src="https://github.com/user-attachments/assets/f12adaac-36c7-430e-a4cc-e399f2d6d325" />
+
+**Map Preview**(Hover your mouse over a map name)**:** 
+
+<img width="875" height="703" alt="image" src="https://github.com/user-attachments/assets/5bb33775-8a07-4abd-a884-f8fab637cf25" />
 
 ## 📥 Installation
 
 ### Requirements
 - Windows 10/11
 - .NET 10 Runtime (included in self-contained build)
-- Tactical Operations installed
+- Tactical Ops installed
 
 ### Download
 1. Download the latest `TacticalOpsQuickJoin.exe` from [Releases](../../releases)
@@ -42,7 +49,6 @@ A modern, fast server browser for Tactical Operations with advanced features and
 ### Joining Servers
 1. Select a server from the list
 2. Click "Join Server" or double-click the server
-3. The game starts automatically
 
 ### Map Preview
 - Hover your mouse over a map name
@@ -91,10 +97,10 @@ dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=
 ## 📊 Map Data
 
 The program loads map preview images from:
-1. **Online**: GitHub Repository (automatic)
+1. **Online**: Tactical-Ops.eu/map-screenshots/ (automatic)
 2. **Local**: `maps.json` in program folder (fallback)
 
-Map data provided by [TO-ServerStats](https://github.com/InSource/TO-ServerStats)
+Map data provided by [Tactical-Ops.eu](https://mirror.tactical-ops.eu/map-screenshots/)
 
 ## 🐛 Known Issues
 
@@ -112,9 +118,9 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) for deta
 
 ## 🙏 Acknowledgments
 
-- Tactical Operations Community
-- Map data provided by [TO-ServerStats](https://github.com/InSource/TO-ServerStats)
-- Original project inspiration
+- Tactical Ops Community
+- Map data provided by [Tactical-Ops.eu](https://mirror.tactical-ops.eu/map-screenshots/)
+- Original project inspiration [Original-Author](https://github.com/jilderthoekstra/Tactical-Ops-Quick-Join)
 
 ## 📞 Support
 
@@ -123,5 +129,3 @@ For issues or questions:
 - Contact the TO Community
 
 ---
-
-**Made with ❤️ for the Tactical Operations Community**
