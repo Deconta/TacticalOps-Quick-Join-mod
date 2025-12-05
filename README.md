@@ -41,8 +41,9 @@ A modern, fast server browser for Tactical Ops with advanced features and an imp
 
 ### Download
 1. Download the latest `TacticalOpsQuickJoin.exe` from [Releases](../../releases)
-2. Run the executable
-3. That's it! No installation needed.
+2. Install .NET Desktop Runtime 8.0.22 [Microsoft.com](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.22-windows-x64-installer)
+3. Run the executable
+4. That's it! No installation needed.
 
 ## 🎮 Usage
 
